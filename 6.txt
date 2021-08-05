@@ -1,0 +1,8 @@
+Q. 
+const set = new Set(['Beethoven','Mozart','Chopin','Chopin']);
+
+Ans.
+set.delete('Beethoven');
+console.log(set);
+Output: { 'Mozart', 'Chopin' }
+It also removes duplicate values

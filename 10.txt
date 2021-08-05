@@ -1,0 +1,7 @@
+
+Q.
+function Hero(name, level) { name = name; level = level; }
+
+Ans:
+It gives undefined as output because the parameters and defined variable names are same
+Instead of declaring name=name and level=level, using “this”, it refers to the function itself.

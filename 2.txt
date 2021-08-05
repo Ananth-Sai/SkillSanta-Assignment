@@ -1,0 +1,29 @@
+Q.
+var library = [ 
+    {
+        title: 'The Road Ahead',
+        author: 'Bill Gates',
+        readingStatus: true
+    },
+    {
+        title: 'Walter Isaacson',
+        author: 'Steve Jobs',
+        readingStatus: true
+    },
+    {
+        title: 'Suzanne Collins',
+        author: 'Mockingjay: The Final Book of The Hunger Games',
+        readingStatus: false
+    }];
+
+Ans:
+for (var i = 0; i < library.length; i++) 
+   {
+    var story = "'" + library[i].title + "'" + ' by ' + library[i].author;
+    if (library[i].readingStatus) {
+      console.log("You've already read " + story);
+    } else
+    {
+     console.log("You've not read " + story);
+    }
+   }

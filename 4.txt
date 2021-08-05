@@ -1,0 +1,25 @@
+Q.
+function foo1(){ 
+  return { bar: "hello"};
+}
+function foo2(){ 
+  return { bar: "hello"};
+}
+
+Ans:
+They both return the same value because they are two different functions.
+    console.log("foo1 returns:");
+    console.log(foo1());
+    console.log("foo2 returns:");
+    console.log(foo2()); 
+Output:
+"foo1 returns:"
+// [object Object] 
+{
+  "bar": "hello"
+}
+"foo2 returns:"
+// [object Object] 
+{
+  "bar": "hello"
+}
